@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <!--Phần 1 : Sở thích của bạn-->
+        <form action="#" style="width: 350px;height: fit-content;">
+            <h1 style="background-color: orange;color: aliceblue;">SỞ THÍCH CỦA BẠN</h1>
+            <p style="color: blue;">
+                Họ và tên
+                <input type="text" name="yourname" id="name">
+            </p>
+            <p style="color: blue;">
+                Email
+                <input type="email" name="mail">
+            </p>
+            <p style="color: blue;">
+                Sở thích
+            <span style="color: orange;">
+                <input type="checkbox" name="hobby" value="sport">Thể thao
+                <input type="checkbox" name="hobby" value="music">Âm nhạc
+                <input type="checkbox" name="hobby" value="book">Đọc sách
+                <br>
+                <input type="checkbox" name="hobby" value="web">Lướt web
+                <input type="checkbox" name="hobby" value="game">Chơi game
+                <input type="checkbox" name="hobby" value="film">Điện ảnh
+                <br>
+                <input type="checkbox" name="hobby" value="travel">Du lịch
+            </span>
+            </p>
+            <p>    
+                <input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại">
+            </p>
+        </form>
+        <hr>
+        <!-- Form đăng ký -->
+        <form action="#" style="width: 350px;">
+            <h2 style="color: blue;background-color: lightblue;">ĐĂNG KÝ HỌC VIÊN</h2>
+            <p style="color: blue;">
+                Họ và tên
+                <input type="text" name="name">
+            </p>
+            <p style="color: blue;">
+                Ngày sinh
+                <input type="text" name="birth">
+            </p>
+            <span style="color: blue;">Giới tính</span>
+            <span>
+                <input type="radio" name="gender" value="man">Nam
+                <input type="radio" name="gender" value="women">Nữ
+            </span>
+            <p style="color: blue;">
+                Địa chỉ
+            <textarea name="address" cols="30" rows="4" style="color: blue;"></textarea>
+            </p>
+            <p style="color: blue;">
+                Lớp
+                <select name="class">
+                    <option value="0">--Chọn lớp--</option>
+                    <option value="1">Lớp 1</option>
+                    <option value="2">Lớp 2</option>
+                    <option value="3">Lớp 3</option>
+                </select>    
+            </p>
+            <p style="color: blue;">
+                Mail
+                <input type="email" name="mail">    
+            </p>
+            <p style="color: blue;">
+                Điện thoại
+                <input type="number" name="phonenumber">
+            </p>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Nhập lại">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
