@@ -4,6 +4,10 @@ p {
     font-weight: 600;
     color: green;
     background-color: #c7d6e3;
-    width: 20%;
-    height: 10%;
+}
+.outside {
+    width: 200px;
+    height: 200px;
+    border: 30px solid green;
+    padding: 50px;
 }
