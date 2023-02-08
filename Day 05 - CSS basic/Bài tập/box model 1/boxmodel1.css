@@ -4,6 +4,7 @@ p {
     font-weight: 600;
     color: green;
     background-color: #c7d6e3;
+    margin: 50px 5px 5px 5px;
 }
 .outside {
     width: 200px;
