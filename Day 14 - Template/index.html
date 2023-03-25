@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập của Template</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: #ecf4fe;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav-link {
+            color: black;
+            margin: 0 10px ;
+        }
+        .fa, p {
+            color:#6882a5;
+        }
+        .btn {
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 70px;
+        }
+        h2 {
+            font-size: 50px;
+            color: #348aff;
+            font-weight: 600;
+        }
+        .btn-primary {
+            background-color: #348aff;
+            border: none;
+        }
+        .banner_img img {
+            border-radius: 35px;
+        }
+        .courses_product--category {
+            color: black;
+            padding: 5px 20px;
+            background-color: #ecf4fe;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .courses_product--price {
+            color: #348aff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .courses--desc {
+            font-weight: 600;
+        }
+        .fa-star {
+            color: #348aff;
+        }
+        .card-group {
+            width: 32.6%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="row flex-row justify-content-between">
+                <div class="navbar logo col-4">
+                    <ul class="navbar-nav list-unstyled flex-row align-items-center">
+                        <li class="nav-item"><a href="#" class="nav-link ms-0"><i class="fa fa-leanpub fa-3x text-primary" aria-hidden="true"></i></a></li>
+                        <li class="nav-item ms-2 fw-bold fs-4"><a href="#" class="nav-link">LEARNING</a></li>
+                    </ul>
+                </div>
+                <div class="navbar menu col-8">
+                    <ul class="navbar-nav flex-row fw-bolder align-items-center">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Course</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-primary ms-2 px-3 py-2 fw-bold text-dark">Login</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary ms-2 px-3 py-2 fw-bold">Register</button>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="intro row flex-row align-items-center justify-content-between pt-5">
+                <div class="intro_title col-7">
+                    <h1 class="fw-bold">Learn more and make success the result</h1>
+                </div>
+                <div class="intro_desc col-4">
+                    <h5 class="text-primary bg-white d-inline-block px-2 py-1">- The best E-learning Platform</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem pariatur reiciendis repellat aspernatur eius quia, nam facilis. </p>
+                    <button class="btn btn-primary px-4 py-3">Show all Courses</button>
+                </div>
+            </div>
+            <div class="banner row flex-row pt-5">
+                <div class="banner_img col-8">
+                    <img src="./assets/media/banner.png" alt="banner" class="img-fluid">
+                </div>
+                <div class="banner_statistics col-4  d-flex flex-column align-items-between ">
+                    <ul class="list-unstyled  ms-3 text-center">
+                        <li class="py-4">
+                            <h2>15+</h2>
+                            <p>Total branches opened<br>in last year</p>
+                        </li>
+                        <li class="pb-4">
+                            <h2>5K+</h2>
+                            <p>New students in<br>last 30 days</p>
+                        </li>
+                        <li class="pb-4">
+                            <h2>1.5K+</h2>
+                            <p>New students in<br>last 30 days</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="courses mt-5 pt-5">
+                <h2 class="text-dark text-center">Our Featured Courses</h2>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta minima, vitae modi suscipit numquam a illo obcaecati.</p>
+                <div class="courses_product row pt-5">
+                    <div class="card-group bg-white rounded-3 d-flex m-1">
+                        <img src="./assets/media/product.jpg" alt="product" class="img-fluid m-2 rounded-3 mx-auto">
+                        <div class="d-flex align-items-center">
+                            <p class="courses_product--category d-inline">Development</p>
+                            <p class="courses_product--price d-inline">$225</p>
+                        </div>
+                        <h5 class="courses--desc">Become a professional designer be with passion & dignity</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="me-auto courses--lessons d-inline">
+                                <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                <p class="d-inline">20 lessons</p>
+                            </div>
+                            <div class="courses--student d-inline ms-auto">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <p class="d-inline">237 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="courses--review d-inline">
+                                <p class="d-inline">5.0</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p class="d-inline">(2,589)</p>
+                            </div>
+                            <i class="fa fa-arrow-circle-right fa-2x ms-auto" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card-group bg-white rounded-3 d-flex m-1">
+                        <img src="./assets/media/product.jpg" alt="product" class="img-fluid m-2 rounded-3 align-items-center">
+                        <div class="justify-content-between">
+                            <p class="courses_product--category d-inline">Development</p>
+                            <p class="courses_product--price d-inline">$225</p>
+                        </div>
+                        <h5 class="courses--desc">Become a professional designer be with passion & dignity</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="me-auto courses--lessons d-inline">
+                                <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                <p class="d-inline">20 lessons</p>
+                            </div>
+                            <div class="courses--student d-inline ms-auto">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <p class="d-inline">237 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="courses--review d-inline">
+                                <p class="d-inline">5.0</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p class="d-inline">(2,589)</p>
+                            </div>
+                            <i class="fa fa-arrow-circle-right fa-2x ms-auto" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card-group bg-white rounded-3 dflex m-1">
+                        <img src="./assets/media/product.jpg" alt="product" class="img-fluid m-2 rounded-3 align-items-center">
+                        <div class="justify-content-between">
+                            <p class="courses_product--category d-inline">Development</p>
+                            <p class="courses_product--price d-inline">$225</p>
+                        </div>
+                        <h5 class="courses--desc">Become a professional designer be with passion & dignity</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="me-auto courses--lessons d-inline">
+                                <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                <p class="d-inline">20 lessons</p>
+                            </div>
+                            <div class="courses--student d-inline ms-auto">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <p class="d-inline">237 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="courses--review d-inline">
+                                <p class="d-inline">5.0</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p class="d-inline">(2,589)</p>
+                            </div>
+                            <i class="fa fa-arrow-circle-right fa-2x ms-auto" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card-group bg-white rounded-3 d-flex m-1">
+                        <img src="./assets/media/product.jpg" alt="product" class="img-fluid m-2 rounded-3 align-items-center">
+                        <div class="justify-content-between">
+                            <p class="courses_product--category d-inline">Development</p>
+                            <p class="courses_product--price d-inline">$225</p>
+                        </div>
+                        <h5 class="courses--desc">Become a professional designer be with passion & dignity</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="me-auto courses--lessons d-inline">
+                                <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                <p class="d-inline">20 lessons</p>
+                            </div>
+                            <div class="courses--student d-inline ms-auto">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <p class="d-inline">237 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="courses--review d-inline">
+                                <p class="d-inline">5.0</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p class="d-inline">(2,589)</p>
+                            </div>
+                            <i class="fa fa-arrow-circle-right fa-2x ms-auto" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card-group bg-white rounded-3 d-flex m-1">
+                        <img src="./assets/media/product.jpg" alt="product" class="img-fluid m-2 rounded-3 align-items-center">
+                        <div class="justify-content-between">
+                            <p class="courses_product--category d-inline">Development</p>
+                            <p class="courses_product--price d-inline">$225</p>
+                        </div>
+                        <h5 class="courses--desc">Become a professional designer be with passion & dignity</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="me-auto courses--lessons d-inline">
+                                <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                <p class="d-inline">20 lessons</p>
+                            </div>
+                            <div class="courses--student d-inline ms-auto">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <p class="d-inline">237 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="courses--review d-inline">
+                                <p class="d-inline">5.0</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p class="d-inline">(2,589)</p>
+                            </div>
+                            <i class="fa fa-arrow-circle-right fa-2x ms-auto" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="card-group bg-white rounded-3 d-flex m-1">
+                        <img src="./assets/media/product.jpg" alt="product" class="img-fluid m-2 rounded-3 align-items-center">
+                        <div class="justify-content-between">
+                            <p class="courses_product--category d-inline">Development</p>
+                            <p class="courses_product--price d-inline">$225</p>
+                        </div>
+                        <h5 class="courses--desc">Become a professional designer be with passion & dignity</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="me-auto courses--lessons d-inline">
+                                <i class="fa fa-leanpub" aria-hidden="true"></i>
+                                <p class="d-inline">20 lessons</p>
+                            </div>
+                            <div class="courses--student d-inline ms-auto">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <p class="d-inline">237 Students</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="courses--review d-inline">
+                                <p class="d-inline">5.0</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <p class="d-inline">(2,589)</p>
+                            </div>
+                            <i class="fa fa-arrow-circle-right fa-2x ms-auto" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="statistics row pt-5">
+                <div class="statistics_title col-6 pt-5 d-inline">
+                    <h2 class="text-dark">We Make Your Learning Through Awesome</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non reiciendis nostrum temporibus. Delectus sapiente assumenda sequi. Vitae consectetur explicabo rerum dignissimos quibusdam deserunt maxime odit provident voluptas recusandae, repudiandae ipsa.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis fugit recusandae autem laboriosam natus ratione.</p>
+                    <ul class="list-unstyled d-inline">
+                        <li class="d-inline">
+                            <h2 class="d-inline">15k+</h2>
+                            <h5 class="d-inline">Student</h5>
+                        </li>
+                        <li class="d-inline">
+                            <h2 class="d-inline">125+</h2>
+                            <h5 class="d-inline">Courses</h5>
+                        </li>
+                        <li class="d-inline">
+                            <h2 class="d-inline">200+</h2>
+                            <h5 class="d-inline">Countries</h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="statistics_detail col-6">
+                    <div class="statistic--video">
+                        <i class="fa fa-video-camera fa-2x bg-warning text-white p-4 rounded-3" aria-hidden="true"></i>
+                        <h4 class="d-inline-block ps-2">Over 5.8k<br>Video Courses</h4>
+                        <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam earum quisquam esse nostrum cumque minima debitis assumenda consequuntur ullam! Minima, doloremque! Ab, aliquam enim animi aperiam minima similique est.</p>
+                    </div>
+                    <div class="statistic--video">
+                        <i class="fa fa-smile-o fa-2x bg-primary text-white p-4 rounded-3" aria-hidden="true"></i>
+                        <h4 class="d-inline-block ps-2">World Best<br>Instructors Courses</h4>
+                        <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam earum quisquam esse nostrum cumque minima debitis assumenda consequuntur ullam! Minima, doloremque! Ab, aliquam enim animi aperiam minima similique est.</p>
+                    </div>
+                    <div class="statistic--video">
+                        <i class="fa fa-check fa-2x text-white bg-info p-4 rounded-3" aria-hidden="true"></i>
+                        <h4 class="d-inline-block ps-2">Over 20k<br>Active Student</h4>
+                        <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam earum quisquam esse nostrum cumque minima debitis assumenda consequuntur ullam! Minima, doloremque! Ab, aliquam enim animi aperiam minima similique est.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

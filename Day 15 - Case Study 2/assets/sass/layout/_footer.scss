@@ -1,0 +1,39 @@
+footer {
+    background-color: $pcolor;    
+}
+.footer_logo {
+    height: 200px;
+}
+.footer_menu ul li a:hover {
+    color: $darkcolor;
+}
+@media screen and (max-width:992px) {
+    .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_logo {
+        height: 300px;
+    }
+    }
+}
+.footer_info {
+    &--icon {
+        color: $bcolor;
+    }
+    &--text {
+        color: $darkcolor;
+    }
+}
+.footer_menu {
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $bcolor;
+            }
+            .nav-link:hover {
+                color: $hcolor;
+            }
+        }
+    }
+}

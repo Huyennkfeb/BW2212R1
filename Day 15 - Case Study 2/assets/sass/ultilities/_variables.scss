@@ -1,0 +1,29 @@
+$lightcolor: #b8d8ef;
+$darkcolor: #6D8DA3;
+$bcolor:#A3875D;
+$wcolor:#fff;
+$hcolor:#DEF1FF;
+$pcolor:#F0D9B9;
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    color: $darkcolor;
+}
+body {
+    overflow-x:hidden;
+}
+.fs-36 {
+    font-size: 36px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+@mixin btnshape {
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 5px;
+}

@@ -1,0 +1,18 @@
+nav ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    color:$darkcolor;
+}
+nav ul li a:hover {
+    color: $lightcolor;
+}
+.menu-item {
+    margin-bottom: 35px;
+    border-bottom: $lightcolor 2px solid;
+    a {
+        color: darkcolor;
+    }
+}
+.logo {
+    width: 100px;
+}

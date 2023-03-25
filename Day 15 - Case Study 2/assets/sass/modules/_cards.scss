@@ -1,0 +1,21 @@
+.card {
+    &_img {
+        overflow: hidden;
+    }
+    img {
+        height: 300px;
+        width: 100%;
+        transition: all 1s ease-out;
+    }
+    h3 {
+        color:$darkcolor;
+    }
+    h4 {
+        color:$darkcolor;
+    }
+}
+.card_img img:hover {
+    opacity: 70%;
+    transform: scale(2, 2);
+    cursor: pointer;
+}

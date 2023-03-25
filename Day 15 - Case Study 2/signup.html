@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANDELA - Sign Up</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white shadow-sm">
+            <div class="container">
+    <!-- header large -->
+                <ul class="navbar-nav flex-fill d-none d-lg-flex">
+                    <li class="nav-item"><a href="./index.html" class="text-decoration-none px-4">Home</a></li>
+                    <li class="nav-item"><a href="./product.html" class="text-decoration-none px-4">Product</a></li>
+                    <li class="nav-item"><a href="./qa.html" class="text-decoration-none px-4">Q&A</a></li>
+                </ul>
+                <div class="flex-fill d-none d-lg-inline-block">
+                    <a href="./index.html">
+                        <img src="./assets/media/logoblack.png" alt="Logo" class="logo img-fluid">
+                    </a>
+                </div>
+                <div class="flex-wrap d-none d-lg-flex"> 
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item"><a href="./login.html" class="nav-link"><button class="btndefault text-decoration-none">LogIn</button></a></li>
+                        <li class="nav-item"><a href="./signup.html" class="nav-link"><button class="btnoutline text-decoration-none">SignUp</button></a></li>
+                    </ul>
+                </div>
+                
+    <!-- headersp -->
+                <div class="d-inline-block d-lg-none">
+                    <a href="./index.html">
+                        <img src="./assets/media/logoblack.png" alt="Logo" class="logo img-fluid">
+                    </a>
+                </div>
+                <button class="d-flex d-lg-none btndefault" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMainNav" aria-controls="offcanvasMainNav">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMainNav" aria-labelledby="offcanvasWithBackdropLabel">
+                    <div class="offcanvas-header">
+                        <a href="#" class="text-decoration-none">
+                            <img src="./assets/media/logoblack.png" alt="Logo" class="img-fluid logo">
+                        </a>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body pt-0">
+                        <ul class=" list-unstyled">
+                            <li class="menu-item">
+                                <a href="./index.html" class="fs-5 text-decoration-none">Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./product.html" class="fs-5 text-decoration-none">Product</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./qa.html" class="fs-5 text-decoration-none">Q&A</a>
+                            </li>
+                            <li>
+                                <a href="./login.html" class="d-inline-block btndefault fs-20 text-decoration-none">LogIn</a>
+                                <a href="./signup.html" class="d-inline-block btnoutline fs-20 text-decoration-none">SignUp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <div class="container">
+        <h2 class="text-center py-4">Sign Up</h2>
+        <form class="mt-5 d-none d-lg-flex flex-column align-items-center">
+            <div class="col-3 pb-3">
+                <label for="fname" class="fs-20 fw-bold d-none d-lg-inline-block">First name:</label><br>
+                <input type="text" required id="fname" name="fname" class="rounded-2 p-2 d-none d-lg-inline-block">
+            </div>
+            <div class="col-3 pb-3">
+                <label for="lname" class="fs-20 fw-bold">Last name:</label><br>
+                <input type="text" required id="lname" name="lname" class="rounded-2 p-2">
+            </div>
+            <div class="col-3 pb-3">
+                <label for="Email" class="fs-20 fw-bold">Email:</label><br>
+                <input type="email" required id="email" name="email" class="rounded-2 p-2">
+            </div>
+            <div class="col-3 pb-3">
+                <label for="pass" class="fs-20 fw-bold">Password:</label><br>
+                <input type="password" required id="pass" name="pass" class="rounded-2 p-2">
+            </div>
+            <div class="col-3 d-flex flex-row justify-content-center py-3 fs-20">
+                <span class="text-secondary">Already a member?</span>
+                <span>
+                    <a href="./login.html" class="text-decoration-none fw-bold">Log in</a>
+                </span>
+            </div>
+            <button type="submit" class="btndefault fs-20 mb-5">Sign Up</button>
+        </form>
+        <!-- formsp -->
+        <form class="mt-5 d-flex d-lg-none flex-column align-items-center">
+            <div class="col-5 pb-3">
+                <label for="fname">First name:</label><br>
+                <input type="text" required id="fname" name="fname" class="rounded-2">
+            </div>
+            <div class="col-5 pb-3">
+                <label for="lname">Last name:</label><br>
+                <input type="text" required id="lname" name="lname" class="rounded-2">
+            </div>
+            <div class="col-5 pb-3">
+                <label for="email">Email:</label><br>
+                <input type="email" required id="email" name="email" class="rounded-2">
+            </div>
+            <div class="col-5 pb-3">
+                <label for="pass">Password:</label><br>
+                <input type="password" required id="pass" name="pass" class="rounded-2">
+            </div>
+            <div class="col-5 d-flex flex-row justify-content-center py-3">
+                <span class="text-secondary">Already a member? </span>
+                <span>
+                    <a href="./login.html" class="text-decoration-none fw-bold">Log in</a>
+                </span>
+            </div>
+            <button type="submit" class="btndefault mb-5">Login</button>
+        </form>
+    </div>
+</main>
+<footer class="mt-5">
+    <div class="footer container d-flex justify-content-between align-items-center">
+        <div class="footer_logo d-flex">
+            <img src="./assets/media/logo-footer.jpg" alt="logo-footer" class="img-fluid">
+        </div>
+        <ul class="list-unstyled d-flex flex-column pt-4">
+                    <li class="footer_info fs-20 text-bold">
+                        <i class="footer_info--icon fa fa-map-marker " aria-hidden="true" class="d-inline"></i>
+                        <p class="footer_info--text d-inline-block">Street 16, Ward 7, District 10.</p>
+                    </li>
+                    <li class="footer_info fs-20 text-bold">
+                        <i class="footer_info--icon fa fa-phone" aria-hidden="true" class="d-inline"></i>
+                        <p class=" d-inline-block"><a href="#" class="text-decoration-none footer_info--text">0123456789</a></p>
+                    </li>
+                    <li class="footer_info fs-20 text-bold">
+                        <i class="footer_info--icon fa fa-envelope" aria-hidden="true" class="d-inline"></i>
+                        <p class="footer_info--text d-inline-block">abcxyz@gmail.com</p>
+                    </li>
+        </ul>
+        <div class="footer_menu flex-wrap justify-content-center align-items-center d-none d-lg-flex"> 
+                <ul class="navbar-nav d-flex flex-row justify-content-center">
+                    <li class="nav-item"><a href="./index.html" class="nav-link fs-24 p-3">Home</a></li>
+                    <li class="nav-item"><a href="./product.html" class="nav-link fs-24 p-3">Product</a></li>
+                    <li class="nav-item"><a href="./qa.html" class="nav-link fs-24 p-3">Q&A</a></li>
+                </ul>
+                <div class="footer_menu--icon d-flex flex-wrap justify-content-center">
+                    <a href="#">
+                        <i class="fa fa-facebook-f fa-2x p-4"></i></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-instagram fa-2x p-4"></i>
+                    </a>
+                </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

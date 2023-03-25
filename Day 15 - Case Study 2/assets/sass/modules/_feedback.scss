@@ -1,0 +1,37 @@
+.feedbackdiv {
+    padding-top:100px;
+    .feedback {
+    border: 3px solid rgba(211, 211, 211, 0.493);
+    border-radius: 30px;
+    position: relative;
+    &_img {
+        position: absolute;
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+    &_text {
+        padding-top:80px;
+    }
+}
+}
+@media screen and (max-width:992px) {
+    .feedbackdiv {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        .feedback {
+            width: 100%;
+        }
+        .feedback:nth-child(2) {
+            margin-top: 100px;
+        }
+        .feedback:nth-child(3) {
+            margin-top:100px;
+        }
+    }
+}

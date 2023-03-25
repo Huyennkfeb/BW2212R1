@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANDELA - Product</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white shadow-sm">
+            <div class="container">
+    <!-- header large -->
+                <ul class="navbar-nav flex-fill d-none d-lg-flex">
+                    <li class="nav-item"><a href="./index.html" class="text-decoration-none px-4">Home</a></li>
+                    <li class="nav-item"><a href="./product.html" class="text-decoration-none px-4">Product</a></li>
+                    <li class="nav-item"><a href="./qa.html" class="text-decoration-none px-4">Q&A</a></li>
+                </ul>
+                <div class="flex-fill d-none d-lg-inline-block">
+                    <a href="./index.html">
+                        <img src="./assets/media/logoblack.png" alt="Logo" class="logo img-fluid">
+                    </a>
+                </div>
+                <div class="flex-wrap d-none d-lg-flex"> 
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item"><a href="./login.html" class="nav-link"><button class="btndefault text-decoration-none">LogIn</button></a></li>
+                        <li class="nav-item"><a href="./signup.html" class="nav-link"><button class="btnoutline text-decoration-none">SignUp</button></a></li>
+                    </ul>
+                </div>
+                
+    <!-- headersp -->
+                <div class="d-inline-block d-lg-none">
+                    <a href="./index.html">
+                        <img src="./assets/media/logoblack.png" alt="Logo" class="logo img-fluid">
+                    </a>
+                </div>
+                <button class="d-flex d-lg-none btndefault" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMainNav" aria-controls="offcanvasMainNav">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMainNav" aria-labelledby="offcanvasWithBackdropLabel">
+                    <div class="offcanvas-header">
+                        <a href="#" class="text-decoration-none">
+                            <img src="./assets/media/logoblack.png" alt="Logo" class="img-fluid logo">
+                        </a>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body pt-0">
+                        <ul class=" list-unstyled">
+                            <li class="menu-item">
+                                <a href="./index.html" class="fs-5 text-decoration-none">Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./product.html" class="fs-5 text-decoration-none">Product</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="./qa.html" class="fs-5 text-decoration-none">Q&A</a>
+                            </li>
+                            <li>
+                                <a href="./login.html" class="d-inline-block btndefault fs-20 text-decoration-none">LogIn</a>
+                                <a href="./signup.html" class="d-inline-block btnoutline fs-20 text-decoration-none">SignUp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<main>
+    <div class="container">
+        <h2 class="text-center py-4">Product category</h2>
+        <!-- category -->
+    <div class="m-5 ">
+        <ul class="nav nav-tabs row d-flex flex-row justify-content-around border-0 align-items-center">
+            <li class="nav-item col-md-3 col-sm-6">
+            <!-- categorypc -->
+                <a href="#product-pillar" class="nav-link border-0 active category d-none d-lg-flex align-items-center px-4 py-2 text-decoration-none" aria-current="page" data-bs-toggle="tab">
+                    <img src="./assets/media/nenxoan.png" alt="category" class="category--image rounded-2">
+                    <h4 class="category--text m-2">Pillar Candle</h4>
+                </a>
+                <!-- categorysp -->
+                <a href="#product-pillar" class="nav-link border-0 active categorysp col-md-3 col-sm-6 d-flex d-lg-none align-items-center p-2 text-decoration-none" aria-current="page" data-bs-toggle="tab">
+                    <img src="./assets/media/nenxoan.png" alt="category" class="categorysp--image rounded-2">
+                    <h6 class="categorysp--text m-2">Pillar Candle</h6>
+                </a>
+            </li>
+            <li class="nav-item col-md-3 col-sm-6">
+              <!-- categorypc -->
+                <a href="#product-art" class="nav-link border-0 category d-none d-lg-flex align-items-center px-4 py-2 text-decoration-none" data-bs-toggle="tab">
+                <img src="./assets/media/product-so.png" alt="category" class="category--image rounded-2">
+                <h4 class="category--text m-2">Art Candle</h4>
+                </a>
+            <!-- categorysp -->
+                <a href="#product-art" class="nav-link border-0 categorysp d-flex d-lg-none align-items-center p-2 text-decoration-none" data-bs-toggle="tab">
+                <img src="./assets/media/product-so.png" alt="category" class="categorysp--image rounded-2">
+                <h6 class="categorysp--text m-2">Art Candle</h6>
+                </a>
+            </li>
+            <li class="nav-item col-md-3 col-sm-6">
+                <!-- categorypc -->
+                <a href="#product-mini" class="nav-link border-0 category d-none d-lg-flex align-items-center px-4 py-2 text-decoration-none" data-bs-toggle="tab">
+                <img src="./assets/media/category.png" alt="category" class="category--image rounded-2">
+                <h4 class="category--text m-2">Mini Size Candle</h4>
+                </a>
+            <!-- categorysp -->
+                <a href="#product-mini" class="nav-link border-0 categorysp d-flex d-lg-none align-items-center p-2 text-decoration-none" data-bs-toggle="tab">
+                <img src="./assets/media/category.png" alt="category" class="categorysp--image rounded-2">
+                <h6 class="categorysp--text m-2">Mini Size Candle</h6>
+                </a>
+            </li>
+            <li class="nav-item col-md-3 col-sm-6">
+                <!-- categorypc -->
+                <a href="#product-set" class="nav-link category border-0 d-none d-lg-flex align-items-center px-4 py-2 text-decoration-none" data-bs-toggle="tab">
+                <img src="./assets/media/gift-set.JPG" alt="category" class="category--image rounded-2">
+                <h4 class="category--text m-2">Gift Set</h4>
+                </a>
+            <!-- categorysp -->
+                <a href="#product-set" class="nav-link categorysp border-0 d-flex d-lg-none align-items-center p-2 text-decoration-none" data-bs-toggle="tab">
+                <img src="./assets/media/gift-set.JPG" alt="category" class="categorysp--image rounded-2">
+                <h6 class="categorysp--text m-2">Gift Set</h6>
+                </a>
+            </li>
+          </ul>
+        <div class="tab-content">
+            <div id="product-pillar" class="tab-pane active">
+        <h2 class="text-center py-4">Pillar Candle</h2>
+        <div class="row g-4 py-4">
+            <div class="col-md-4 col-xl-3 col-sm-6">
+                <div class="card shadow h-100">
+                    <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                        <img src="./assets/media/product-bauto.png" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                    </div>
+                    <h3 class="pt-2 ps-2 d-none d-lg-block">Gourd Pillar candle</h3>
+                    <h4 class="pt-2 ps-2 d-lg-none d-block">Gourd Pillar candle</h4>
+                    <h6 class="fs-20 ps-2 d-none d-lg-block">20$</h6>
+                    <h6 class="ps-2 d-lg-none d-block">20$</h6>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                        <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xl-3 col-sm-6">
+                <div class="card shadow h-100">
+                    <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                        <img src="./assets/media/trucanh.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                    </div>
+                    <h3 class="pt-2 ps-2 d-none d-lg-block">Pillar Candle</h3>
+                    <h4 class="pt-2 ps-2 d-lg-none d-block">Pillar Candle</h4>
+                    <h6 class="fs-20 ps-2 d-none d-lg-block">25$</h6>
+                    <h6 class="ps-2 d-lg-none d-block">25$</h6>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                        <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xl-3 col-sm-6">
+                <div class="card shadow h-100">
+                    <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                        <img src="./assets/media/trutamgiac.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                    </div>
+                    <h3 class="pt-2 ps-2 d-none d-lg-block">Traingle Pillar</h3>
+                    <h4 class="pt-2 ps-2 d-lg-none d-block">Traingle Pillar</h4>
+                    <h6 class="fs-20 ps-2 d-none d-lg-block">25$</h6>
+                    <h6 class="ps-2 d-lg-none d-block">25$</h6>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                        <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xl-3 col-sm-6">
+                <div class="card shadow h-100">
+                    <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                        <img src="./assets/media/truthang.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                    </div>
+                    <h3 class="pt-2 ps-2 d-none d-lg-block">Ladder Pillar Candle</h3>
+                    <h4 class="pt-2 ps-2 d-lg-none d-block">Ladder Pillar Candle</h4>
+                    <h6 class="fs-20 ps-2 d-none d-lg-block">30$</h6>
+                    <h6 class="ps-2 d-lg-none d-block">30$</h6>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                        <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xl-3 col-sm-6">
+                <div class="card shadow h-100">
+                    <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                        <img src="./assets/media/truxoan.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                    </div>
+                    <h3 class="pt-2 ps-2 d-none d-lg-block">Torsion Cylinder Candle</h3>
+                    <h4 class="pt-2 ps-2 d-lg-none d-block">Torsion Cylinder Candle</h4>
+                    <h6 class="fs-20 ps-2 d-none d-lg-block">30$</h6>
+                    <h6 class="ps-2 d-lg-none d-block">30$</h6>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                        <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+            <div id="product-art" class="tab-pane fade">
+            <h2 class="text-center py-4">Art Candle</h2>
+            <div class="row g-4 py-4">
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/santa.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Santa Clause Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Santa Clause Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">5$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">5$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/snow.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Snowman Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Snowman Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">2$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">2$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/snowgreen.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Snow Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Snow Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">2$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">2$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/sofa.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Sofa Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Sofa Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">10$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">10$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/tuong.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Statue Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Statue Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">10$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">10$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/nhieutang.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Multistage Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Multistage Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">12$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">12$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/hoa.HEIC" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Flower Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Flower Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">15$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">15$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="product-mini" class="tab-pane fade">
+            <h2 class="text-center py-4">Mini Size Candle</h2>
+            <div class="row g-4 py-4">
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/nutthat.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Knot candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Knot candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">2$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">2$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/cubemini.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Cube Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Cube Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">3$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">3$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/cuonlen.jpg" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Wool Roll Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Wool Roll Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">2$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">2$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/product-lotus.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Lotus Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Lotus Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">5$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">5$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/chrismasbear.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Chrismas Bear Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Chrismas Bear Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">15$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">15$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="product-set" class="tab-pane fade">
+            <h2 class="text-center py-4">Gift Set</h2>
+            <div class="row g-4 py-4">
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/set83.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">8/3 Gift Set Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">8/3 Gift Set Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">35$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">35$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/sethong.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Pink Set Candle</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Pink Set Candle</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">25$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">25$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/setcake.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Birthday Cake Set</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Birthday Cake Set</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">35$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">35$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6">
+                    <div class="card shadow h-100">
+                        <div class="card_img d-flex flex-row flex-wrap align-content-center">
+                            <img src="./assets/media/setvang.JPG" alt="bauto" class="card-img-top rounded-4 p-2 img-fluid">
+                        </div>
+                        <h3 class="pt-2 ps-2 d-none d-lg-block">Yellow Set</h3>
+                        <h4 class="pt-2 ps-2 d-lg-none d-block">Yellow Set</h4>
+                        <h6 class="fs-20 ps-2 d-none d-lg-block">35$</h6>
+                        <h6 class="ps-2 d-lg-none d-block">35$</h6>
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a href="./product_detail.html" class="btndefault fs-20 text-decoration-none d-none d-lg-inline-block">Detail</a>
+                            <a href="./product_detail.html" class="btndefault text-decoration-none d-lg-none d-inline-block">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>    
+    </div>
+</main>
+<footer class="mt-5">
+    <div class="footer container d-flex justify-content-between align-items-center">
+        <div class="footer_logo d-flex">
+            <img src="./assets/media/logo-footer.jpg" alt="logo-footer" class="img-fluid">
+        </div>
+        <ul class="list-unstyled d-flex flex-column pt-4">
+                    <li class="footer_info fs-20 text-bold">
+                        <i class="footer_info--icon fa fa-map-marker " aria-hidden="true" class="d-inline"></i>
+                        <p class="footer_info--text d-inline-block">Street 16, Ward 7, District 10.</p>
+                    </li>
+                    <li class="footer_info fs-20 text-bold">
+                        <i class="footer_info--icon fa fa-phone" aria-hidden="true" class="d-inline"></i>
+                        <p class=" d-inline-block"><a href="#" class="text-decoration-none footer_info--text">0123456789</a></p>
+                    </li>
+                    <li class="footer_info fs-20 text-bold">
+                        <i class="footer_info--icon fa fa-envelope" aria-hidden="true" class="d-inline"></i>
+                        <p class="footer_info--text d-inline-block">abcxyz@gmail.com</p>
+                    </li>
+        </ul>
+        <div class="footer_menu flex-wrap justify-content-center align-items-center d-none d-lg-flex"> 
+                <ul class="navbar-nav d-flex flex-row justify-content-center">
+                    <li class="nav-item"><a href="./index.html" class="nav-link fs-24 p-3">Home</a></li>
+                    <li class="nav-item"><a href="./product.html" class="nav-link fs-24 p-3">Product</a></li>
+                    <li class="nav-item"><a href="./qa.html" class="nav-link fs-24 p-3">Q&A</a></li>
+                </ul>
+                <div class="footer_menu--icon d-flex flex-wrap justify-content-center">
+                    <a href="#">
+                        <i class="fa fa-facebook-f fa-2x p-4"></i></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-instagram fa-2x p-4"></i>
+                    </a>
+                </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

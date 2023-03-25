@@ -1,0 +1,23 @@
+.btndefault {
+    color:$wcolor;
+    background-color: $bcolor;
+    border: none;
+    @include btnshape;
+}
+.btndefault:hover {
+    color: $hcolor;
+    background-color: $darkcolor;
+    @include btnshape;
+}
+.btnoutline {
+    color: $bcolor;
+    background-color: $wcolor;
+    border: $bcolor solid 1px;
+    @include btnshape;
+}
+.btnoutline:hover {
+    color: $hcolor;
+    background-color: $pcolor;
+    border: $bcolor solid 1px;
+    @include btnshape;
+}
